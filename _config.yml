@@ -24,7 +24,7 @@ title: Soderbom                          # the main title
 tagline: A Sparkling Problem Solver   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A collection of stuff I have learned or want to learn
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'http://soderbom.github.io'
