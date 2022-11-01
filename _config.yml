@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://pbs.twimg.com/profile_images/1587551480738881536/pfp_Tn-r_400x400.jpg
+avatar: https://avatars.githubusercontent.com/u/102477149?s=400&u=63ccc8087a6c38fff3e747f91c9efce432cc3b84&v=4
 # boolean type, the global switch for ToC in posts.
 toc: true
 
@@ -173,7 +173,7 @@ compress_html:
   clippings: all
   comments: all
   endings: all
-  profile: true
+  profile: false
   blanklines: false
   ignore:
     envs: [development]
