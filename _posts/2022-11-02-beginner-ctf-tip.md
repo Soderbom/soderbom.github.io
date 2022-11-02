@@ -47,6 +47,7 @@ info functions
 Aha, there it is! Let's set a break point at main so we don't immediatly exit the program when we run it.
 ``` bash
 b main
+run
 ```
 
 Now, let's jump to our function with the following command:
