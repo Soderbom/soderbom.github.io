@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hidden functions
-date: 2022-11-01 19:00:00 +200
+date: 2022-11-02 16:00:00 +200
 categories: [beginner, ctf, reversing]
 tag: [beginner, ctf, reversing, gdb]
 ---
