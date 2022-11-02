@@ -8,7 +8,7 @@ tag: [beginner, ctf, reversing, gdb]
 
 It is quite common for beginner CTFs, that includes a binary, to hide some information in a function that is supposed to be unreachable or use a function to obfuscate a flag. Today we are finding out how to bypass all that nonsense. 
 
-# The code
+## The code
 Here we have some simple C code. The function *no_way_here* is our goal, but it is never called.
 
 ``` c
@@ -29,7 +29,7 @@ Compile the code with the command below and let's go!
 gcc demo.c -o demo
 ```
 
-# GDB
+## GDB
 To gain access to the hidden function we can use GDB. Start it with:
 ``` bash
 gdb ./demo
@@ -57,7 +57,7 @@ jump no_way_here
 ![](/assets/images/2022-11-02/jump_result.png)
 And there it is! The output of our hidden function.
 
-# Try it out!
+## Try it out!
 If you are just getting started I can recommend to test your skills in the following TryHackMe room. The difficulty is ranging from *just run the file* to actually getting some use out of this post towards the end. <br>
 [https://tryhackme.com/room/reverselfiles](https://tryhackme.com/room/reverselfiles)
 
