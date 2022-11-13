@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You won an IPhone 14 Pro!
+title: You won an iPhone 14 Pro!
 date: 2022-11-13 15:00:00 +200
 categories: [phishing, scam]
 tag: [phishing, scam, junkmail]
